@@ -5,7 +5,7 @@
 //  Created by machinateur on 08.11.26.
 //
 
-//#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 //#import <Metal/Metal.h>
 #import "Matrix.h"
 #import "NeuralNetwork.h"
