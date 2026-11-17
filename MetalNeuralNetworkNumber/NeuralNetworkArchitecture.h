@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly) size_t *layer;
 @property (readonly) size_t depth;
 
+// Note: Depth without input layer.
 - (id) initWithLayer: (size_t *)layer
                depth: (size_t)depth;
 

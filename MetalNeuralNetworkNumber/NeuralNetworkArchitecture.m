@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
         layer[1 + i] = size;
     }
 
-    return [self initWithLayer:layer depth:(1 + depth)];
+    return [self initWithLayer:layer depth:depth];
 }
 
 - (Matrix *) createLayerWeight: (size_t)layer

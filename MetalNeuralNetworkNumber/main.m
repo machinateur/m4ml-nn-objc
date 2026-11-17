@@ -38,7 +38,7 @@ int main(int argc, const char * argv[]) {
 
         NSLog(@"MSE before training = %f", [NeuralNetwork mse:net input:train_input output:train_output]);
 
-        [NeuralNetwork gd:net rate:5e-1 epsilon:1e-1 input:train_input output:train_output iterations:(10 * 1000)];
+        [NeuralNetwork gd:net rate:5e-1 epsilon:/*1e-1*/0 input:train_input output:train_output iterations:(10 * 1000)];
 
         NSLog(@"MSE  after training = %f", [NeuralNetwork mse:net input:train_input output:train_output]);
 
